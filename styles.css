@@ -42,6 +42,7 @@ button{
     color: #24053E;
     font-size: 18px;
     font-weight: bold;
+    border: 0;
 }
 button:hover{
     background-color: transparent;
@@ -80,6 +81,9 @@ nav{
 }
 .nav_right a:hover{
     color: #44FFA1;
+}
+.nav_right:active{
+    background-color: transparent;
 }
 .main_title{
     max-width: 635px;
@@ -430,6 +434,7 @@ footer{
         padding: 32px;
         position: absolute;
         bottom: -345px;
+        right: 0;
         text-align: center;
     }
     h3{
