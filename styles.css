@@ -26,7 +26,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: #24053E;
 }
 h1, h2, h3, .number{
     font-family: 'Fraunces'; 
@@ -78,6 +78,9 @@ nav{
     font-weight: 600;
     border-bottom: 3px solid #44FFA1;
     height: 28px;
+}
+.nav_right a{
+    color: #fff;
 }
 .nav_right a:hover{
     color: #44FFA1;
